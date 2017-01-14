@@ -16,4 +16,6 @@
 	$var_sql = "INSERT into userInfo(userID,pwd) VALUES('$mobile','$pwd')";  //执行的sql语句
 	mysql_query($var_sql);
 	
+	echo “1”;
+	
 ?>
